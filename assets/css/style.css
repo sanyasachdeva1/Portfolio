@@ -9,7 +9,9 @@ body {
   position: relative;
   background: transparent;
 }
-
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 body::before {
   content: "";
   position: fixed;
